@@ -1,0 +1,663 @@
+@font-face {
+  font-family: 'bbb';
+  src: url('bpg_extrasquare_mtavruli_2009.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+
+  .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/foto2.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    
+  }
+ #webTitle{
+    font-size: 50px;
+    font-family: impact;
+    color:white;
+ } 
+#description{
+    font-size: 30px;
+    font-family: cursive;
+    color:white;
+}
+.info{ 
+    width: 40%;
+  
+
+}
+.bannerFoto{ 
+    width: 40%;
+    font-size: 50px;
+    font-family: impact;
+    color:white; 
+}
+
+body{
+    background-color: #dad7cd;
+}
+
+.container{
+    background-color: rgb(224, 233, 240);
+    padding: 50px;
+    text-align: center;
+}
+.containerIntro{
+    font-size: 30px;
+    font-family: cursive;
+    color:#ed621c;
+}
+.articleBlocks{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 30px;
+    font-family: cursive;
+}
+.text{
+    background-image: url(images/efde4a07a84bfc2961dba94b394eea11.jpg);
+    background-size: cover;
+     padding: 20vw;
+}
+.text .satauri{
+    text-align: center;
+    font-size: 40px;
+    color: #a3b18a;
+}
+.text .qvesatauri{
+    text-align: center;
+    font-size: 20px;
+    color: #a3b18a;
+}
+
+.fortext{
+    align-items: center;
+    background-color: rgba(52, 78, 65, 0.5);
+    padding: 20px;
+    
+}
+.search{
+    text-align: center;
+}
+#search{
+    width: 25vw;
+    padding: 10px;
+    border-radius: 50px;
+    transition: width 0.5s;
+    transition-timing-function: cubic-bezier(0.23, 2, 0.320, 4);
+}
+
+#about{
+    text-align: center;
+    color: #344e41;
+    margin: 150px;
+    margin-top: 40px;
+    font-size: 1.5vw;
+}
+*{
+    scroll-behavior: smooth;
+}
+.ctg{
+    background-image: url(images/top-view-hardback-books-table-with-coffee-copy-space.jpg);
+    background-size: cover;
+    padding: 10vw;
+    text-align: right;
+}
+
+.fntz{
+    background-image: url(images/beautiful-mountains-landscape.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.fnt1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.fnt1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.fnt1 img:hover{
+ opacity: 0.7;
+}
+table{
+  width: 100%;  
+  margin: auto;
+
+}
+.t7 td{
+    color: #a3b18a;
+    font-size: 1.5vw;
+}
+.fnt2{
+  display: flex;
+  justify-content: space-between;
+
+}
+.fnt2 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.fnt2 img:hover{
+ opacity: 0.7;
+}
+
+.fn{
+    color: #a3b18a;
+    font-size: 40px;
+}
+.clsc{
+    background-image: url(images/cl.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.cls1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.cls1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.cls1 img:hover{
+ opacity: 0.7;
+}
+table{
+  width: 100%;  
+  margin: auto;
+
+}
+table tr td{
+    color: #344e41;
+    font-size: 1.5vw;
+}
+.cls2{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.cls2 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.cls2 img:hover{
+ opacity: 0.7;
+}
+
+.cl{
+    color: #344e41;
+    font-size: 40px;
+}
+.t1{
+    width: 50%;
+    margin-left: 30px;
+}
+.georg{
+    background-image: url(images/cl.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.geo1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.geo1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.geo1 img:hover{
+ opacity: 0.7;
+}
+table{
+  width: 100%;  
+  margin: auto;
+
+}
+table td{
+    color: #344e41;
+    font-size: 1.5vw;
+}
+.geo2{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.geo2 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.geo2 img:hover{
+ opacity: 0.7;
+}
+
+.ge{
+    color: #344e41;
+    font-size: 40px;
+}
+.t2{
+    width: 50%;
+    margin-left: 5px;
+}
+.dist{
+    background-image: url(images/ft.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.dis1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.dis1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.dis1 img:hover{
+ opacity: 0.7;
+}
+table{
+  width: 100%;  
+  margin: auto;
+
+}
+table td{
+    color: #a3b18a;
+    font-size: 1.5vw;
+}
+
+.di{
+    color: #a3b18a;
+    font-size: 40px;
+}
+.sabav{
+    background-image: url(images/sab.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.sab1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.sab1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.sab1 img:hover{
+ opacity: 0.7;
+}
+table{
+  width: 100%;  
+  margin: auto;
+
+}
+table td{
+    color: #344e41;
+    font-size: 1.5vw;
+}
+.sab2{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.sab2 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.sab2 img:hover{
+ opacity: 0.7;
+}
+
+.sa{
+    color: #344e41;
+    font-size: 40px;
+}
+.t3{
+    width: 50%;
+    margin-left: 5px;
+}
+.roman{
+    background-image: url(images/123.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.rom1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.rom1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.rom1 img:hover{
+ opacity: 0.7;
+}
+table{
+  width: 100%;  
+  margin: auto;
+
+}
+table td{
+    color: #dad7cd;
+    font-size: 1.5vw;
+}
+
+.ro{
+    color: #dad7cd;
+    font-size: 40px;
+}
+.sata{
+    background-image: url(images/adv.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.satt1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.satt1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.satt1 img:hover{
+ opacity: 0.7;
+}
+table{
+  width: 100%;  
+  margin: auto;
+
+}
+table td{
+    color: #a3b18a;
+    font-size: 1.5vw;
+}
+
+.sat{
+    color: #344e41;
+    font-size: 40px;
+}
+.isto{
+    background-image: url(images/history.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.ist1{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.ist1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.ist1 img:hover{
+ opacity: 0.7;
+}
+.t4{
+  width: 50%;
+  margin-left: 30px;
+
+}
+.t4 table td{
+    color: #a3b18a;
+    font-size: 1.5vw;
+}
+
+.is{
+    color: #344e41;
+    font-size: 40px;
+}
+.skif{
+    background-image: url(images/9656.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.ski1{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.ski1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.ski1 img:hover{
+ opacity: 0.7;
+}
+.t5{
+  width: 50%;
+  margin-left: 60px;
+
+}
+.t5 td{
+    color: #a3b18a;
+    font-size: 1.5vw;
+}
+
+.sk{
+    color: #a3b18a;
+    font-size: 50px;
+}
+.dete{
+    background-image: url(images/dete.jpg);
+    background-size: cover;
+    padding: 160px;
+    align-items: left;
+    
+    
+    
+}
+.det1{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.det1 img{
+  width: 90%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 7px;
+}
+.det1 img:hover{
+ opacity: 0.7;
+}
+.t6{
+  width: 50%;
+  margin-left: 60px;
+
+}
+.t6 td{
+    color: #a3b18a;
+    font-size: 1.5vw;
+}
+
+.de{
+    color: #a3b18a;
+    font-size: 50px;
+}
+.shtm{
+    display: inline-block;
+    padding: 350px;
+    background-image: url(images/sh.jpg);
+    background-size: cover;
+    background-blend-mode: normal;
+}
+
+.sht{
+    color: #dad7cd;
+    font-size: 40px;
+}
+.shm{
+    
+    color: #dad7cd;
+    font-size: 1.5vw;
+    margin: 10px;
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.shm img{
+  width: 250px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.crlp{
+    display: inline-block;
+    padding: 350px;
+    background-image: url(images/cruu.jpg);
+    background-size: cover;
+    background-blend-mode: normal;
+}
+
+.cr{
+    color: #344e41;
+    font-size: 40px;
+}
+.crl{
+    
+    color: #344e41;
+    font-size: 1.5vw;
+    margin: 10px;
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.crl img{
+  width: 250px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+
+.hrpt{
+    display: inline-block;
+    padding: 350px;
+    background-image: url(images/hpp.jpg);
+    background-size: cover;
+    background-blend-mode: normal;
+    
+}
+
+.hr{
+    color: #a3b18a;
+    font-size: 40px;
+}
+.hrp{
+    
+    color: #a3b18a;
+    font-size: 1.5vw;
+    margin: 10px;
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.hrp img{
+  width: 250px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.forms{
+  margin: 50px;
+}
+
+
